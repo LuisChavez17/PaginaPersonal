@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color:purple;
+    height: 120px;
+    width: auto;
+    position:relative;
+}
+.header img{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.header .lista-menu{
+    list-style: none;
+    display:flex;
+    position: absolute;
+    top: 30px;
+}
+.lista-menu li{
+    display: inline-block;
+    margin-left: 50px;
+}
+.lista-menu li a{
+    text-decoration: none;
+    color:darkgreen;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header .lista-menu li:hover{
+    text-decoration: underline;
+}
+body{
+    background-image: url(https://www.pcgamesn.com/wp-content/uploads/2020/03/valorant-logo.jpg);
+    background-position: center;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:blueviolet;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    border: 5px solid;
+}
+h2{
+    text-align: center;
+}
+#Valorant{
+    width: 100;
+    margin: auto;
+    display: block;
+    border: cornflowerblue 3px solid;
+}
+p{
+    width: 500px;
+    font-size: 30px;
+    padding: 30px;
+    text-align: justify;
+}
+.div1{
+    width: 500px;
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+.div2{
+    width: 500px;
+    position: absolute;
+    top: 250px;
+    right: 30px;
+}
+h3{
+    display: flex;
+    justify-content:center;
+}
+footer p{
+    width: auto;
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+    color:midnightblue;
+}
+footer{
+    background-color:crimson
+}
